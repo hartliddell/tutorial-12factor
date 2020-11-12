@@ -1,7 +1,7 @@
 version: '3'
 services:
   app:
-    image: foo/bar:1.0
+    image: foo/bar
     env_file:
       - .env
     ports:
